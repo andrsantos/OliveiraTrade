@@ -2,8 +2,8 @@
 Projeto feito para o processo de seleção de trainees da EveryMind.
 Consiste em um pequeno sistema de login feito em Java, Bootstrap 5 e MYSQL.
 
-#### SCRIPTS PARA A CRIAÇÃO DO BANCO DE DADOS ####
-AMBIENTE: MYSQL WORKBENCH
+#### SCRIPTS PARA A CRIAÇÃO DO BANCO DE DADOS - MYSQL WORKBENCH ####
+
 DELIMITER $
 CREATE DEFINER=`root`@`localhost` TRIGGER `Tgr_login_Insert` AFTER INSERT ON `clientes` FOR EACH ROW BEGIN
 	INSERT INTO login VALUES(new.cpf,new.idCliente, new.email, new.senha);
