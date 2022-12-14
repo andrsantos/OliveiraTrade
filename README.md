@@ -31,7 +31,6 @@ CREATE TABLE `login` (
   CONSTRAINT `login_ibfk_1` FOREIGN KEY (`idCliente`) REFERENCES `clientes` (`idCliente`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 
-##########
 
 
 #### INSTRUÇÕES DE USO ####
