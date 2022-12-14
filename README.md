@@ -42,4 +42,4 @@ CREATE TABLE `login` (
 clicar sobre a mensagem para que ela seja ocultada
 5 - Agora, basta ao usuário digitar seu email e senha e clicar em "Login"
 6 - O usuário será redirecionado para um página com seus dados de login e a opção de fazer logout(Sair)
-##########################
+
