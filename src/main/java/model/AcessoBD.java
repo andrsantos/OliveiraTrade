@@ -10,7 +10,7 @@ import java.sql.Statement;
 import javax.swing.JOptionPane;
 
 public class AcessoBD {
-	//ADICIONAR OS VALORES AQUI
+	
 	static String url = "jdbc:mysql://localhost:3306/oliveiratrade";
 	static String usuario = "root";
 	static String senha = "andrey12";
