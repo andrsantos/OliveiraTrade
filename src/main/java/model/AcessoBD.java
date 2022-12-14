@@ -27,21 +27,7 @@ public class AcessoBD {
 		conexao.setAutoCommit(false);
 	}
 	
-	/*public static void consultarCliente() throws SQLException {
-		
-		String consulta = "SELECT * FROM Cliente";
-		Statement statement = conexao.createStatement();
-		ResultSet rs = statement.executeQuery(consulta);
-		while(rs.next()) {
-			System.out.println("Nome: " + rs.getString(1));
-			System.out.println("CPF: " + rs.getString(2));
-			System.out.println("Endereço: " + rs.getString(3));
-			System.out.println("Telefone: " + rs.getString(4));
-			
-			
-		}
-		
-	}*/
+	
 	
 	public static void mostrarMetaInfoBD() throws SQLException {
 		DatabaseMetaData meta = conexao.getMetaData();
@@ -50,16 +36,6 @@ public class AcessoBD {
 		JOptionPane.showMessageDialog(null,"Versão: " + versaoBD + "Fabricante: " + fabricanteBD);
 	}
 	
-	/*public static void main(String[] args) throws ClassNotFoundException {
-		try {
-			conectar();
-			mostrarMetaInfoBD();
-			consultarCliente();
-			conexao.close();
-			
-		} catch(SQLException e) {
-			e.printStackTrace();
-		}
-	}*/
+	
 
 }
